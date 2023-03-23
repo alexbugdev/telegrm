@@ -1,0 +1,11 @@
+        if dd.month < 10:
+            if dd.day < 10:
+                data = "" + str(dd.year) + "0" + str(dd.month) + "0" + str(dd.day)
+            else:
+                data = "" + str(dd.year) + "0" + str(dd.month) + "" + str(dd.day)
+
+        else:
+            if dd.day < 10:
+                data = "" + str(dd.year) + str(dd.month) + "0" + str(dd.day)
+            else:
+                data = "" + str(dd.year) + "" + str(dd.month) + "" + str(dd.day)
