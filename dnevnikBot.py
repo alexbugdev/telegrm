@@ -6,9 +6,6 @@ from dnevnikru.parsers import Subject
 from dnevnikru.parsers import FormattedDate
 from pprint import pprint
 
-#dn = Dnevnik(login="ignateva", password="Cashgg1977")
-
-dn_1 = Dnevnik(login="Pavel.smirnov2004100", password="Anonimys442")
 isdef = dn_1.isDefined()
 print(isdef)
 data = dn_1.week(dates="13.03.2023", section=0)
